@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.faixa-nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: #EC7000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.faixa-esquerda{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    justify-items: center;
+    align-items: center;
+}
+.faixa-esquerda ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.faixa-esquerda ul li{
+    display: inline;
+    color: white;
+    font-weight: 700;
+
+}
+.faixa-direita{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+}
+.faixa-direita ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.faixa-direita ul li{
+    display: inline;
+    color: white;
+    font-weight: 700;
+}
+
+.faixa-direita ul :nth-child(2){
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+
+.faixa-direita ul:hover :nth-child(2),
+.faixa-direita ul li, .faixa-esquerda ul li{
+    cursor: pointer;
+}
+
+.faixa-banner{
+    display: flex;
+    height: 70vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.emprestimo-consignado{
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+.emprestimo-consignado button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #EC7000;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.foto{
+    width: 60vw;
+    height: 100%;
+    background-image: url("../img/main_banner_1912x900_consignado.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faixa-presente{
+    width: 100vw;
+    height: 20vh;
+    background-color: #EFE9E5;
+    padding: 40px;
+}
